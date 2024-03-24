@@ -17,7 +17,7 @@ public class GymManagementSystemApplication {
 	@Bean
 	public CommandLineRunner commandLineRunner(TrainerService trainerService) {
 		return args -> {
-			for (int i = 0; i < 50; i++) {
+			for (int i = 0; i < 100; i++) {
 				Trainer trainer = new Trainer(null,"Denzel"+i,"Dzingiso"+i,"Male"+i,
 						"63-23418-y"+i,"Cardio"+i,"07800340"+i,"denzel@gmail.com"+i);
 				trainerService.save(trainer).subscribe();
