@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/membershipdetails")
+@RequestMapping("/membershipDetails")
 public class MembershipDetailsController {
 }
