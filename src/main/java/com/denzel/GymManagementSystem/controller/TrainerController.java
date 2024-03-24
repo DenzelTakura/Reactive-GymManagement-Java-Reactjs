@@ -37,7 +37,6 @@ public class TrainerController {
     }
 
     @GetMapping("/{trainerId}")
-    public Mono<Trainer> fetchById(@PathVariable Long trainerId){
-        return trainerService.getById(trainerId);
+    public Mono<Trainer> fetchById(@PathVariable Long trainerId){return trainerService.getById(trainerId);
     }
 }
