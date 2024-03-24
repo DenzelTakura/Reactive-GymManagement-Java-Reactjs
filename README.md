@@ -1,10 +1,11 @@
 # Reactive-GymManagement-Java-Reactjs
 
 Basic concepts of a GymManagement System
--MySql
--Java(Springboot)
--Javascript
--React.Js
+
+MySql
+Java(Springboot)
+Javascript
+React.Js
 
 feel free to clone and view
 
