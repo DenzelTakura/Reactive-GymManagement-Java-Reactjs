@@ -1,0 +1,103 @@
+.todoForm {
+    background-color:rgba(247, 244, 244, 0.555);
+    border-radius: 8px;
+    padding: 20px;
+    width: 50%;
+    min-width: 300px;
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 10px 6px rgba(16, 2, 94, 0.7);;
+    height: 50%;
+
+}
+
+.headerLabel {
+   text-align: center;
+   color: rgb(102, 88, 88);
+    box-shadow: 0 10px 6px rgba(16, 2, 94, 0.7);;
+   margin-bottom: 20px;
+}
+.inputBox {
+
+    width: 90%;
+    height: 30px;
+    border-style:double;
+    border-color: rgb(214, 214, 241);
+    border-width: 0.5;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    max-width: 3000px;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 9px;
+}
+.labels {
+    margin-left: 9px;
+    font-weight: 500;
+
+}
+
+.submitBtn {
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(31, 226, 14);
+    padding-left: 30px;
+    padding-bottom: 7.5px;
+    padding-top: 7.5px;
+    padding-right: 30px;
+    font-size: 16px;
+    cursor:pointer;
+    margin-left: 9px;
+    
+
+}
+.btnContainer {
+    margin-top: 50px;
+    display: flex;
+}
+.tablebtnContainer {
+    display: flex;
+}
+
+.parentContainer{
+  width: 90%;
+  background-color: rgb(10, 5, 5);
+  margin-top: 10px;
+  align-items: center;
+}
+
+.header {
+    position: fixed;
+}
+.scrollTable {
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+
+.scrollTable thead th {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+  }
+
+.cancelBtn {
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(201, 6, 16);
+    padding-left: 30px;
+    padding-bottom: 7.5px;
+    padding-top: 7.5px;
+    padding-right: 30px;
+    font-size: 16px;
+    cursor:pointer;
+    margin-left: 80px;
+    margin-right: 10px;
+
+}
+.inputContainer {
+    background-color: transparent;
+}
